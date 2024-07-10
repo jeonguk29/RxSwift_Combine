@@ -30,7 +30,7 @@ class NumbersViewController: UIViewController {
             .CombineLatest4(number1.textPublisher,
                             number2.textPublisher,
                             number3.textPublisher,
-                            number4.textPublisher) // 4개를 묶는 것임
+                            number4.textPublisher) // 파이프라인 4개를 묶는 것임
             .map { textValue1, textValue2, textValue3, textValue4 -> Int in
                 return textValue1.getNumber() + textValue2.getNumber() + textValue3.getNumber() + textValue4.getNumber()
             } // 연산자를 이용하여 형태를 변환 Int 타입으로 다 더한 다음 반환

@@ -36,7 +36,7 @@ class ViewController: UIViewController {
             })
             .store(in: &subscriptions)// 해당 뷰컨이 메모리에서 사라지면 구독에 대한 찌꺼기 담는 부분임
         
-        navToNumbersSwiftUiBtn
+        navToNumbersSwiftUiBtn // 스유뷰로 이동하는 버튼
             .tapPublisher
             .sink(receiveValue: {
                 print(#fileID, #function, #line, "- <#comment#>")
@@ -50,7 +50,6 @@ class ViewController: UIViewController {
                 let numbersVC = NumbersView().getContainerVC()
                 
 //                let myVC = MyView().getContainerVC()
-                
 //                self.navigationController?.pushViewController(myVC, animated: true)
                 self.navigationController?.pushViewController(numbersVC, animated: true)
             })
