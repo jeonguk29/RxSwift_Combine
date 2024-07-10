@@ -117,26 +117,28 @@ struct MyView : View {
 
 struct NumbersView : View {
     
+    @StateObject var viewModel = NumbersVM()
+    
     @State var input : String = ""
     
     var body: some View {
         VStack(alignment: .trailing){
             
-            TextField("", text: $input)
+            TextField("", text: $viewModel.number1)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
             
-            TextField("", text: $input)
+            TextField("", text: $viewModel.number2)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
             
-            TextField("", text: $input)
+            TextField("", text: $viewModel.number3)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
             
-            TextField("", text: $input)
+            TextField("", text: $viewModel.number4)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
             
             Divider()
             
-            Text("합계")
+            Text($viewModel.resultValue.wrappedValue)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
         }

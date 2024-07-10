@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6428A4EF2C3E6D7200C47990 /* NumbersVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6428A4EE2C3E6D7200C47990 /* NumbersVM.swift */; };
 		F23DEEEA28F8572200875F52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23DEEE928F8572200875F52 /* AppDelegate.swift */; };
 		F23DEEEC28F8572200875F52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23DEEEB28F8572200875F52 /* SceneDelegate.swift */; };
 		F23DEEEE28F8572200875F52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23DEEED28F8572200875F52 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6428A4EE2C3E6D7200C47990 /* NumbersVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersVM.swift; sourceTree = "<group>"; };
 		F23DEEE628F8572200875F52 /* CombineTutorial-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CombineTutorial-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F23DEEE928F8572200875F52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F23DEEEB28F8572200875F52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				F23DEF0228F8579F00875F52 /* NumbersViewController.swift */,
 				F23DEF0428F85BDC00875F52 /* UIViewController+Ext.swift */,
 				F23DEF0628F8628500875F52 /* NumbersSwiftUiContainerVC.swift */,
+				6428A4EE2C3E6D7200C47990 /* NumbersVM.swift */,
 			);
 			path = "CombineTutorial-example";
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				F23DEEEA28F8572200875F52 /* AppDelegate.swift in Sources */,
 				F23DEEEC28F8572200875F52 /* SceneDelegate.swift in Sources */,
 				F23DEF0728F8628500875F52 /* NumbersSwiftUiContainerVC.swift in Sources */,
+				6428A4EF2C3E6D7200C47990 /* NumbersVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
