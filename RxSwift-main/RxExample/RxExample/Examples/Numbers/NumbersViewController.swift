@@ -33,3 +33,4 @@ class NumbersViewController: ViewController {
             // 구독을 하면 disposed 라는 찌꺼기가 나오는데 disposeBag에 보내서 한번에 관리
     }
 }
+
