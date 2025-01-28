@@ -6,7 +6,7 @@ Combine 프레임워크에 대한 개념을 학습하기 위한 목차입니다.
 
 ## 1. Publisher
 
-- [Just](./combine_just_intro.md)
+- [Just](./Combine/Publishers/Just.md)
 - Future (준비 중)
 - PassthroughSubject (준비 중)
 - CurrentValueSubject (준비 중)
