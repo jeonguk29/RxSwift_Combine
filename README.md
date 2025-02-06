@@ -8,8 +8,7 @@ Combine 프레임워크에 대한 개념을 학습하기 위한 목차입니다.
 
 - [Just](./Combine/Publishers/Just.md)
 - [Empty](./Combine/Publishers/Empty.md)
-- PassthroughSubject (준비 중)
-- CurrentValueSubject (준비 중)
+- [Future](./Combine/Publishers/Future.md)
 
 ---
 
