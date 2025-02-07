@@ -10,6 +10,7 @@ Combine 프레임워크에 대한 개념을 학습하기 위한 목차입니다.
 - [Empty](./Combine/Publishers/Empty.md)
 - [Future](./Combine/Publishers/Future.md)
 - [Fail와 Never 타입 이해](./Combine/Publishers/Fail.md)
+- [Deferred](./Combine/Publishers/Deferred.md)
 
 ---
 
