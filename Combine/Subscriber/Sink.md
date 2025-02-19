@@ -131,4 +131,3 @@ Empty<Int, Error>(completeImmediately: true)
 ## ✅ 6. 결론
 `sink`는 `Publisher`를 구독하는 **가장 간단한 방법**이며,  
 메모리 관리와 구독 취소를 위해 `AnyCancellable`과 함께 사용해야 합니다.  
-이제 Combine의 `sink`를 활용해 효율적인 데이터 스트림을 관리해 보세요! 🚀

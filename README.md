@@ -16,8 +16,9 @@ Combine 프레임워크에 대한 개념을 학습하기 위한 목차입니다.
 
 ## 2. Subscriber
 
-- Sink (준비 중)
-- Assign (준비 중)
+- [AnyCancellable](./Combine/Subscriber/AnyCancellable.md)
+- [Subscriber](./Combine/Subscriber/Subscriber.md)
+- [Sink](./Combine/Subscriber/Sink.md)
 
 ---
 
