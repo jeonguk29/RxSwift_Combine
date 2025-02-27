@@ -16,21 +16,22 @@ Combine 프레임워크에 대한 개념을 학습하기 위한 목차입니다.
 
 ## 2. Subscriber
 
-- [AnyCancellable](./Combine/Subscriber/AnyCancellable.md)
 - [Subscriber](./Combine/Subscriber/Subscriber.md)
 - [Sink](./Combine/Subscriber/Sink.md)
+- [AnyCancellable](./Combine/Subscriber/AnyCancellable.md)
 
 ---
 
-## 3. Operators
+## 3. Subject
+
+- [Subject](./Combine/Subject/Subject.md)
+
+---
+
+## 4. Operators
 
 - Map (준비 중)
 - Filter (준비 중)
 - FlatMap (준비 중)
 - CombineLatest (준비 중)
 
----
-
-## 4. Subscription
-
-- Subscription 기본 개념 (준비 중)
