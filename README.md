@@ -25,6 +25,8 @@ Combine 프레임워크에 대한 개념을 학습하기 위한 목차입니다.
 ## 3. Subject
 
 - [Subject](./Combine/Subject/Subject.md)
+- [CurrentValueSubject](./Combine/Subject/CurrentValueSubject.md)
+- [PassthroughSubject](./Combine/Subject/PassthroughSubject.md)
 
 ---
 
